@@ -39,7 +39,7 @@
       cursor: pointer;
     }
   }
-  
+
   .item {
     display: flex;
     align-items: center;
@@ -65,9 +65,10 @@
       }
 
       p {
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 300;
       }
     }
   }
 }
+
