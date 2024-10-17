@@ -28,7 +28,71 @@ const Chat = () => {
           <img src="./info.png" alt="" />
         </div>
       </div>
-      <div className="center"></div>
+      <div className="center">
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio at doloremque
+              architecto officia itaque temporibus illo minima animi possimus, id blanditiis. Velit
+              animi voluptates sunt quo dicta enim consectetur.
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio at doloremque
+              architecto officia itaque temporibus illo minima animi possimus, id blanditiis. Velit
+              animi voluptates sunt quo dicta enim consectetur.
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio at doloremque
+              architecto officia itaque temporibus illo minima animi possimus, id blanditiis. Velit
+              animi voluptates sunt quo dicta enim consectetur.
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio at doloremque
+              architecto officia itaque temporibus illo minima animi possimus, id blanditiis. Velit
+              animi voluptates sunt quo dicta enim consectetur.
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio at doloremque
+              architecto officia itaque temporibus illo minima animi possimus, id blanditiis. Velit
+              animi voluptates sunt quo dicta enim consectetur.
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio at doloremque
+              architecto officia itaque temporibus illo minima animi possimus, id blanditiis. Velit
+              animi voluptates sunt quo dicta enim consectetur.
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+      </div>
       <div className="bottom">
         <div className="icons">
           <img src="./img.png" alt="" />
@@ -44,7 +108,7 @@ const Chat = () => {
         <div
           className='emoji-container'>
           <button onClick={() => setIsOpen((prev) => !prev)}
-                className='emoji'>
+            className='emoji'>
             <img
               src="./emoji.png"
               alt=""
